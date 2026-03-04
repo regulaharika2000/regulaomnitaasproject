@@ -29,23 +29,23 @@ function Login() {
     <div style={{textAlign: 'center', marginTop: '100px'}}>
       <h2>Login Page</h2>
       <form onSubmit={handleSubmit}>
-        <div>
+        
           <input
             type="text"
             placeholder="Username"
             value={username}
             onChange={e => setUsername(e.target.value)}
           />
-        </div>
+        
               <br />
-        <div>
+        
           <input
             type="password"
             placeholder="Password"
             value={password}
             onChange={e => setPassword(e.target.value)}
           />
-        </div>
+        
       <br />
         <button type="submit">Login</button>
       </form>
