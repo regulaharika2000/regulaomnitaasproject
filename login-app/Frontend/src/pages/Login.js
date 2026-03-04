@@ -37,7 +37,6 @@ function Login() {
             onChange={e => setUsername(e.target.value)}
           />
         </div>
-        <br />
         <div>
           <input
             type="password"
