@@ -38,6 +38,8 @@ function Login() {
           />
         
               <br />
+              <br/>
+              <br/>
         
           <input
             type="password"
@@ -47,6 +49,8 @@ function Login() {
           />
         
       <br />
+              <br/>
+              <br/>
         <button type="submit">Login</button>
       </form>
 
